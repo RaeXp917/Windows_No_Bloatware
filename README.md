@@ -6,7 +6,7 @@
 
     Target File: en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso
 
-    Verification: This ISO contains 3 editions. Select **Index 2 during Installation** For details go **4. OS Installation**
+    Verification: This ISO contains 3 editions. Select **Index 2 during Installation** For details go **3. OS Installation**
 
 3. Rufus Setup
 
@@ -221,16 +221,17 @@ This repository is for **documentation purposes only**. I do not own any of the 
 This guide utilizes several amazing open-source projects. Please consider supporting the original creators:
 
 * **Microsoft Activation Scripts (MAS)**
-    * [GitHub](https://github.com/massgravel/Microsoft-Activation-Scripts) | [Donate/Support](https://massgrave.dev/donate)
+    * [GitHub](https://github.com/massgravel/Microsoft-Activation-Scripts) | [Official Website / Credits](https://massgrave.dev/)
 * **Chris Titus Tech (WinUtil)**
     * [GitHub](https://github.com/ChrisTitusTech/winutil) | [Patreon](https://www.patreon.com/christitustech)
-* * **Equicord**
-    * [GitHub](https://github.com/Equicord/Equicord) | [Website](https://equicord.org/)
+* **Equicord**
+    * [GitHub](https://github.com/Equicord/Equicord) | [Official Website](https://equicord.org/)
 * **Dorion (by SpikeHD)**
-    * [GitHub](https://github.com/SpikeHD/Dorion) | [Support SpikeHD](https://ko-fi.com/spikehd)
+    * [GitHub](https://github.com/SpikeHD/Dorion) | [Support SpikeHD (Ko-fi)](https://ko-fi.com/spikehd)
 * **Legcord**
-    * [GitHub](https://github.com/Legcord/Legcord) | [Open Collective](https://opencollective.com/legcord)
+    * [GitHub](https://github.com/Legcord/Legcord) | [Sponsor on GitHub](https://github.com/sponsors/smartfrigde)
 * **Vencord**
-    * [GitHub](https://github.com/Vendicated/Vencord) | [Support Vendicated](https://ko-fi.com/vendicated)
+    * [GitHub](https://github.com/Vendicated/Vencord) | [Support Vendicated (Ko-fi)](https://ko-fi.com/vendicated)
+
 
 **All credit goes to the talented developers linked above.**
