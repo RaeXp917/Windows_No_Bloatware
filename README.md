@@ -106,6 +106,7 @@ https://www.voidtools.com/downloads/
 **OPTIONAL LIGHTWEIGHT DISCORD CLIENTS**
 
 ============ Dorion (The "Ultra-Light" Pick) ===================
+
 Built with Rust/Tauri. Extremely small and fast.
 
 Site: https://spikehd.dev/projects/dorion/
