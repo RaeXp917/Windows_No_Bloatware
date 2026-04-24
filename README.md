@@ -16,6 +16,16 @@ Windows Server: All editions including Server 2025 and RDS CALs.
 
 ### **STEP 2: CHAD CHRISTITUS TOOL**
 
+## WinUtil (Chris Titus Tech)
+
+This uses WinUtil by Chris Titus Tech.
+
+Original:
+https://github.com/ChrisTitusTech/winutil  
+https://christitus.com/
+
+All credit goes to Chris Titus Tech
+
 Run in PowerShell (Admin):
 
 irm christitus.com/win | iex
@@ -175,7 +185,7 @@ OR use this that is simply dark and u can change fonts links etc colors
 
 dark+theme.css (move it to download folders)
 
-is a profile of other memer that i touched (i just made it a bit darker with red)
+is a profile of other guy that i touched (i just made it a bit darker with red)
 
 --darkplus-bg: #0b0b0b;  main/base background
 --darkplus-bg2: #131313; secondary background
