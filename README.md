@@ -1,3 +1,36 @@
+**ISO PREP WIN 11**
+
+    Site: https://massgrave.dev/windows_ltsc_links.html#win11-iot-enterprise-ltsc-2024
+
+    Target: en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso
+
+    Download: en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso
+
+    Verification: This file contains 3 editions. We only care about Index 2.
+
+ **RUFUS PREP**
+
+	Site: https://rufus.ie/en/
+	
+    Select the ISO you downloaded and your flash drive
+
+    Then click START, check these boxes in the popup:
+
+        Remove requirement for 4GB+ RAM, Secure Boot and TPM 2.0
+
+        Remove requirement for an online Microsoft account
+
+        Disable data collection (Skip privacy questions)
+
+		Disable Bitlocker (if you know what it is and dont need it)
+
+	BIOS: SWITCH PARTITION TO YOUR FLASH DRIVE PARTITION AS PRIORITY 1
+
+    DURING OS INSTALL: When the list appears, SELECT INDEX 2: Windows 11 IoT Enterprise LTSC.
+
+    NO INTERNET: Do not connect to Wi-Fi until you are at the actual desktop.
+
+
 ### **STEP 1: WIN ACTIVATE AND PROGGRAMS**
 
 Click the Start Menu, type PowerShell, and Run as Administrator.
