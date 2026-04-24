@@ -166,14 +166,13 @@ Stop-Service -Name "WSearch"; Set-Service -Name "WSearch" -StartupType Disabled
 
 **Sidenote on WSearch:**
 Just use **Everything**. It is plain better, faster, and more precise than the built-in Windows Search.
--cons a simple exe instead of build in searchbar
 
 ---
 
 ## ** (OPTIONAL) SEARCH REPLACEMENT EVERYTHING**
 
-* [Official Site](https://www.voidtools.com/)
-
+* [Official Site Evrything](https://www.voidtools.com/)
+-cons a simple exe instead of build in searchbar
 
 ---
 
@@ -181,7 +180,7 @@ Just use **Everything**. It is plain better, faster, and more precise than the b
 
 If there are any essential programs you need that weren't included in the WinUtil tool, you can easily install them all at once using Ninite.
 
-* [Visit Ninite's Official Website](https://ninite.com/)
+* [Ninite's Official Website](https://ninite.com/)
 
 ---
 
