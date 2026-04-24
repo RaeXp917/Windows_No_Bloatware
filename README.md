@@ -64,7 +64,7 @@ wsreset -i
 Wait about 2 to 5 minutes, and the Microsoft Store icon will suddenly appear in your Start Menu.
 
 
-### **STEP 3: REGISTRY - KILL ONLINE ACCOUNT NAGS & PASSWORD**
+## **STEP 3: REGISTRY - KILL ONLINE ACCOUNT NAGS & PASSWORD**
 
 *Run in PowerShell (Admin) to automate the Registry keys:*
 
@@ -87,7 +87,7 @@ Advanced Tab → Performance Settings.
 CHECK the box: Show window contents while dragging.
 
 
-### **HDD OPTIMIZATIONS (CRITICAL FOR HDDs WINDOWS INSTALL — SKIP IF YOU USE AN SSD)**
+## **HDD OPTIMIZATIONS (CRITICAL FOR HDDs WINDOWS INSTALL — SKIP IF YOU USE AN SSD)**
 
 Run the following commands in PowerShell (Administrator) to reduce unnecessary disk activity (“thrashing”) on traditional hard drives:
 
@@ -107,7 +107,7 @@ https://www.voidtools.com/downloads/
 
 **OPTIONAL LIGHTWEIGHT DISCORD CLIENTS**
 
-### ============ Dorion (The "Ultra-Light" Pick) ===================
+## ============ Dorion (The "Ultra-Light" Pick) ===================
 
 Built with Rust/Tauri. Extremely small and fast.
 
@@ -123,7 +123,7 @@ Plugins supported Vencord/Equicord
 
 Vencord Built-in
 
-### ============ Legcord (lighter Discord client with added privacy) =================
+## ============ Legcord (lighter Discord client with added privacy) =================
 
 A solid all-around alternative focused on better performance and built-in enhancements.
 
@@ -137,7 +137,7 @@ Default Shortcuts: Currently uses Ctrl + Shift + D for Deafen. (on focused windo
 
 Plugins Vencord Built-in
 
-### ================= (OPTIONAL) DISCORD RECC PLUGINS FOR BEING LIGHTWEIGHT=========================
+## ================= (OPTIONAL) DISCORD RECC PLUGINS FOR BEING LIGHTWEIGHT=========================
 
 PLUGINS TO ENABLE:
 
@@ -159,7 +159,7 @@ APP SETTINGS:
 
 and lastly use Discord themes not extras
 
-### ========== (OPTIONAL BUT RECC) ==========
+## ========== (OPTIONAL BUT RECC) ==========
 
 Once your Discord plugins are satisfied
 
@@ -168,7 +168,7 @@ Go to Settings -> Vencord -> Backup & Restore.
 Click Export and save the file. (is backup only for vencord! not disc settings overall)
 
 
-### **If u want 2 custom themes**
+## **If u want 2 custom themes**
 
 Go to Settings -> Vencord -> TAB LOCAL THEMES -> SUBTAB FIND THEMES download and move it to the local vencord themes folder
 
