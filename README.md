@@ -51,9 +51,12 @@ irm https://get.activated.win | iex
 ```
 What this can activate:
 
-Windows: All versions (10, 11, Home, Pro, Enterprise, LTSC, and even old ones like 7/8/Server).
+Windows: All versions (10, 11, Home, Pro, Enterprise, LTSC, and old ones).
+
 Microsoft Office: All versions (365, 2024, 2021, 2019, 2016, etc.).
+
 Visual Studio: Professional and Enterprise editions.
+
 Windows Server: All editions including Server 2025 and RDS CALs.
 
 ---
