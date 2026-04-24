@@ -126,9 +126,9 @@ CHECK the box: Show window contents while dragging.
 ## **OPTIONAL: INSTALL MICROSOFT STORE**
 
 Run this in PowerShell (Admin):
-
+```
 wsreset -i
-
+```
 Wait about 2 to 5 minutes, and the Microsoft Store icon will suddenly appear in your Start Menu.
 
 ---
@@ -172,6 +172,7 @@ Just use **Everything**. It is plain better, faster, and more precise than the b
 ## ** (OPTIONAL) SEARCH REPLACEMENT EVERYTHING**
 
 * [Official Site Evrything](https://www.voidtools.com/)
+
 -cons a simple exe instead of build in searchbar
 
 ---
