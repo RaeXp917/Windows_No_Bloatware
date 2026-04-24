@@ -171,7 +171,7 @@ Just use **Everything**. It is plain better, faster, and more precise than the b
 
 ## ** (OPTIONAL) SEARCH REPLACEMENT EVERYTHING**
 
-* [Official Site Evrything](https://www.voidtools.com/)
+* [Official Site Everything](https://www.voidtools.com/)
 
 -cons a simple exe instead of build in searchbar
 
@@ -271,7 +271,8 @@ This guide utilizes several amazing open-source projects. Please consider suppor
     *  [Oficial Site](https://christitus.com) | [GitHub](https://github.com/ChrisTitusTech/winutil) | [Patreon](https://www.patreon.com/christitustech)
 * **Ninite**
     * [Official Website](https://ninite.com/)
-* **Evrything**
+* **Everything**
+
 	*[Official Site](https://www.voidtools.com/) | [Support](https://www.voidtools.com/donate)
 * **Equicord**
     * [GitHub](https://github.com/Equicord/Equicord) | [Official Website](https://equicord.org/)
