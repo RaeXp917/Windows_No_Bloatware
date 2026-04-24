@@ -146,10 +146,10 @@ https://www.voidtools.com/downloads/
 
 ## **Dorion (The "Ultra-Light" Pick)**
 
-Built with Rust/Tauri. Extremely small and fast.
+* [Visit Dorion's Website](https://spikehd.dev/projects/dorion/)
+* [View Dorion on GitHub](https://github.com/SpikeHD/Dorion)
 
-Site: https://spikehd.dev/projects/dorion/
-Github: https://github.com/SpikeHD/Dorion
+Built with Rust/Tauri. Extremely small and fast.
 
 on release v6.12.2 (atm screensharing is the heavy part idk if its gonna change in the feature)
 
@@ -160,12 +160,21 @@ Plugins supported Vencord/Equicord
 
 Vencord Built-in
 
+**Vencord**
+	[GitHub](https://github.com/Vendicated/Vencord)
+	[Support Vendicated](https://ko-fi.com/vendicated)
+
+**Equicord**
+	[GitHub](https://github.com/Equicord/Equicord) 
+	[Website](https://equicord.org/)
+
 ## Legcord **(lighter Discord client with added privacy)**
 
-A solid all-around alternative focused on better performance and built-in enhancements.
+* [Visit Legcord's Website](https://legcord.app/)
+* [View Legcord on GitHub](https://github.com/Legcord/Legcord)
+  
 
-Site: https://legcord.app/
-Github: https://github.com/Legcord/Legcord
+A solid all-around alternative focused on better performance and built-in enhancements.
 
 Pros: Uses ~200MB less RAM than standard Discord. Vencord comes pre-installed by default.
 
@@ -173,6 +182,10 @@ Cons: (Current Known Issues on v1.2.4): not global keybinds working + no custom 
 Default Shortcuts: Currently uses Ctrl + Shift + D for Deafen. (on focused window)
 
 Plugins Vencord Built-in
+
+**Vencord**
+	[GitHub](https://github.com/Vendicated/Vencord)
+	[Support Vendicated](https://ko-fi.com/vendicated)
 
 ##  **(OPTIONAL) DISCORD RECC PLUGINS FOR BEING LIGHTWEIGHT**
 
@@ -194,32 +207,30 @@ PLUGINS TO ENABLE:
 APP SETTINGS:
     Hardware Acceleration: ON. Keeps CPU usage low.
 
-and lastly use Discord themes not extras
+and lastly use Discord official themes (for performance)
 
-##  **(OPTIONAL BUT RECC)**
+---
 
-Once your Discord plugins are satisfied
+## **DISCLAIMER**
+This repository is for **documentation purposes only**. I do not own any of the tools mentioned in this guide, nor do I take any responsibility for their use, potential system instability, or how you choose to apply these tweaks. Use them at your own risk.
 
-Go to Settings -> Vencord -> Backup & Restore.
+---
 
-Click Export and save the file. (is backup only for vencord! not disc settings overall)
+### **CREDITS & SUPPORT**
 
+This guide utilizes several amazing open-source projects. Please consider supporting the original creators:
 
-## **If u want 2 custom themes**
+* **Microsoft Activation Scripts (MAS)**
+    * [GitHub](https://github.com/massgravel/Microsoft-Activation-Scripts) | [Donate/Support](https://massgrave.dev/donate)
+* **Chris Titus Tech (WinUtil)**
+    * [GitHub](https://github.com/ChrisTitusTech/winutil) | [Patreon](https://www.patreon.com/christitustech)
+* * **Equicord**
+    * [GitHub](https://github.com/Equicord/Equicord) | [Website](https://equicord.org/)
+* **Dorion (by SpikeHD)**
+    * [GitHub](https://github.com/SpikeHD/Dorion) | [Support SpikeHD](https://ko-fi.com/spikehd)
+* **Legcord**
+    * [GitHub](https://github.com/Legcord/Legcord) | [Open Collective](https://opencollective.com/legcord)
+* **Vencord**
+    * [GitHub](https://github.com/Vendicated/Vencord) | [Support Vendicated](https://ko-fi.com/vendicated)
 
-Go to Settings -> Vencord -> TAB LOCAL THEMES -> SUBTAB FIND THEMES download and move it to the local vencord themes folder
-
-OR use this that is simply dark and u can change fonts links etc colors
-
-dark+theme.css (move it to download folders)
-
-is a profile of other guy that i touched (i just made it a bit darker with red)
-
-:root {
-  --darkplus-bg: #0b0b0b;    /* main/base background */
-  --darkplus-bg2: #131313;   /* secondary background */
-  --darkplus-sec: #940000;   /* (red) outlines, scrollbars, highlights */
-  --darkplus-links: #940000; /* (red) link/fonts */
-
-  // rest..
-}
+**All credit goes to the talented developers linked above.**
