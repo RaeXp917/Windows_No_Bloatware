@@ -1,18 +1,22 @@
 ### **STEP 0 OS AND RUFUS INSTALLATION (SKIP IF U HAVE THEM) **
 
 1. ISO Preparation
-
-    Source Site: Massgrave Windows LTSC Links
+ 
+    [Massgrave Windows LTSC Links](https://massgrave.dev/windows_ltsc_links.html#win11-iot-enterprise-ltsc-2024)
 
     Target File: en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso
 
-    Verification: This ISO contains 3 editions. Select Index 2 during installation.
+    Verification: This ISO contains 3 editions. Select **Index 2 during installation**.
 
 2. Rufus Setup
 
-    Download Tool: Rufus Official Site
+   [Rufus Official Site](https://rufus.ie/en/)
 
-    Settings: Select your USB and the ISO. After clicking START, check these boxes in the popup:
+    Select USB and ISO in Rufus.
+
+	Leave settings at default and click START.
+
+    START POPUP check these boxes in the popup:
 
         Remove requirement for 4GB+ RAM, Secure Boot and TPM 2.0
 
@@ -20,13 +24,13 @@
 
         Disable data collection (Skip privacy questions)
 
-        Disable BitLocker automatic device encryption
+        Disable BitLocker automatic device encryption (if you dont need it)
 
 3. OS Installation
 
     BIOS: Set your USB Flash Drive as Priority 1 in Boot Order.
 
-    Selection: When the list appears, choose Index 2: Windows 11 IoT Enterprise LTSC.
+    Selection: When the list appears, choose **Index 2: Windows 11 IoT Enterprise LTSC**.
 
     No Internet: Do not connect to Wi-Fi/Ethernet during setup. This ensures a clean Local Account creation.
 
@@ -49,13 +53,12 @@ Windows Server: All editions including Server 2025 and RDS CALs.
 
 ## WinUtil (Chris Titus Tech)
 
-This uses WinUtil by Chris Titus Tech.
+**This uses WinUtil by Chris Titus Tech.**
 
-Original:
-https://github.com/ChrisTitusTech/winutil  
-https://christitus.com/
+[Chris Titus Official Site](https://christitus.com/)
+[Chris Titus Repo](https://github.com/ChrisTitusTech/winutil) 
 
-All credit goes to Chris Titus Tech
+**All credit for the tool goes to Chris Titus Tech**
 
 Run in PowerShell (Admin):
 
