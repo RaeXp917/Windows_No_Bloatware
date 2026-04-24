@@ -8,7 +8,7 @@
 
     Verification: This ISO contains 3 editions. Select **Index 2 during Installation** For details go **3. OS Installation**
 
-3. Rufus Setup
+2. Rufus Setup
 
    [Rufus Official Site](https://rufus.ie/en/)
 
@@ -26,7 +26,7 @@
 
         Disable BitLocker automatic device encryption (if you dont need it)
 
-4. OS Installation
+3. OS Installation
 
     BIOS: Set your USB Flash Drive as Priority 1 in Boot Order.
    
@@ -35,6 +35,7 @@
 
     No Internet: Do not connect to Wi-Fi/Ethernet during setup. This ensures a clean Local Account creation.
 
+---
 
 ### **STEP 1: WIN ACTIVATE AND PROGGRAMS**
 
@@ -49,6 +50,8 @@ Windows: All versions (10, 11, Home, Pro, Enterprise, LTSC, and even old ones li
 Microsoft Office: All versions (365, 2024, 2021, 2019, 2016, etc.).
 Visual Studio: Professional and Enterprise editions.
 Windows Server: All editions including Server 2025 and RDS CALs.
+
+---
 
 ### **STEP 2: CHAD CHRISTITUS TOOL**
 
@@ -92,14 +95,7 @@ UPDATES TAB:
 
     Click "Security (Recommended)".
 
-OPTIONAL: INSTALL MICROSOFT STORE
-
-Run this in PowerShell (Admin):
-
-wsreset -i
-
-Wait about 2 to 5 minutes, and the Microsoft Store icon will suddenly appear in your Start Menu.
-
+---
 
 ## **STEP 3: REGISTRY - KILL ONLINE ACCOUNT NAGS & PASSWORD**
 
@@ -123,11 +119,36 @@ Press Win + R → type sysdm.cpl
 Advanced Tab → Performance Settings.
 CHECK the box: Show window contents while dragging.
 
+---
+
+## **OPTIONAL: INSTALL MICROSOFT STORE**
+
+Run this in PowerShell (Admin):
+
+wsreset -i
+
+Wait about 2 to 5 minutes, and the Microsoft Store icon will suddenly appear in your Start Menu.
+
+---
+
+## ** (OPTIONAL) REMOVE XBOX OVERLAY & "MS-GAMINGOVERLAY" POPUP**
+
+If you used the "Remove Xbox & Gaming Components" tweak in WinUtil, you might start getting an annoying popup saying: *"You'll need a new app to open this ms-gamingoverlay link"* every time you launch a game. 
+
+WinUtil deletes the Xbox app but forgets to delete the registry triggers. To permanently kill the popup, run this in PowerShell (Admin):
+
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\GameDVR" /v "AppCaptureEnabled" /t REG_DWORD /d 0 /f
+reg add "HKCU\System\GameConfigStore" /v "GameDVR_Enabled" /t REG_DWORD /d 0 /f
+New-Item -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\GameDVR" -Force
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\GameDVR" -Name "AllowGameDVR" -Value 0
+
+**Why this happened:** Windows 11 treats the "Xbox Game Bar" as a system protocol. When you delete the app but don't delete the registry key,
+
+---
 
 ## **HDD OPTIMIZATIONS (CRITICAL FOR HDDs WINDOWS INSTALL — SKIP IF YOU USE AN SSD)**
 
 Run the following commands in PowerShell (Administrator) to reduce unnecessary disk activity (“thrashing”) on traditional hard drives:
-
 
 Stop-Service -Name "SysMain"; Set-Service -Name "SysMain" -StartupType Disabled
 Stop-Service -Name "DiagTrack"; Set-Service -Name "DiagTrack" -StartupType Disabled
@@ -137,12 +158,28 @@ Stop-Service -Name "WSearch"; Set-Service -Name "WSearch" -StartupType Disabled
 **DiagTrack: Blocks useless data collection.
 **WSearch: Stops continuous disk scanning.
 
-**Sidenote on Wsearch**
-	-Just use Everything is just plain better and faster and precise
+**Sidenote on WSearch:**
+Just use **Everything**. It is plain better, faster, and more precise than the built-in Windows Search.
+-cons a simple exe instead of build in searchbar
 
-https://www.voidtools.com/downloads/
+---
 
-**OPTIONAL LIGHTWEIGHT DISCORD CLIENTS**
+## ** (OPTIONAL) SEARCH REPLACEMENT EVERYTHING**
+
+* [Official Site](https://www.voidtools.com/)
+
+
+---
+
+### ** (OPTIONAL) BULK PROGRAM INSTALLER NINITE**
+
+If there are any essential programs you need that weren't included in the WinUtil tool, you can easily install them all at once using Ninite.
+
+* [Visit Ninite's Official Website](https://ninite.com/)
+
+---
+
+### **OPTIONAL LIGHTWEIGHT DISCORD CLIENTS**
 
 ## **Dorion (The "Ultra-Light" Pick)**
 
@@ -187,6 +224,8 @@ Plugins Vencord Built-in
 	[GitHub](https://github.com/Vendicated/Vencord)
 	[Support Vendicated](https://ko-fi.com/vendicated)
 
+---
+
 ##  **(OPTIONAL) DISCORD RECC PLUGINS FOR BEING LIGHTWEIGHT**
 
 PLUGINS TO ENABLE:
@@ -223,7 +262,9 @@ This guide utilizes several amazing open-source projects. Please consider suppor
 * **Microsoft Activation Scripts (MAS)**
     * [GitHub](https://github.com/massgravel/Microsoft-Activation-Scripts) | [Official Website / Credits](https://massgrave.dev/)
 * **Chris Titus Tech (WinUtil)**
-    *  [Oficial Site](https://christitus.com) | [GitHub](https://github.com/ChrisTitusTech/winutil) | [Patreon](https://www.patreon.com/christitustech) 
+    *  [Oficial Site](https://christitus.com) | [GitHub](https://github.com/ChrisTitusTech/winutil) | [Patreon](https://www.patreon.com/christitustech)
+* **NINITE
+	* [Oficial Site](https://ninite.com/)
 * **Equicord**
     * [GitHub](https://github.com/Equicord/Equicord) | [Official Website](https://equicord.org/)
 * **Dorion (by SpikeHD)**
@@ -232,6 +273,8 @@ This guide utilizes several amazing open-source projects. Please consider suppor
     * [GitHub](https://github.com/Legcord/Legcord) | [Sponsor on GitHub](https://github.com/sponsors/smartfrigde)
 * **Vencord**
     * [GitHub](https://github.com/Vendicated/Vencord) | [Support Vendicated (Ko-fi)](https://ko-fi.com/vendicated)
+ * **Ninite**
+    * [Official Website](https://ninite.com/)
 
 
 **All credit goes to the talented developers linked above.**
