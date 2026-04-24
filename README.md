@@ -1,4 +1,4 @@
-### **STEP 0 OS AND RUFUS INSTALLATION (SKIP IF U HAVE THEM) **
+### **STEP 0 OS AND RUFUS INSTALLATION (SKIP IF U HAVE THEM OR DONT WANT THIS SPESIFIC OS) **
 
 1. ISO Preparation
  
@@ -101,11 +101,13 @@ UPDATES TAB:
 
 *Run in PowerShell (Admin) to automate the Registry keys:*
 
+```
 New-Item -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\CloudContent" -Force
 Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\CloudContent" -Name "DisableCloudOptimizedContent" -Value 1
 New-Item -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\UserProfileEngagement" -Force
 Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\UserProfileEngagement" -Name "ScoobeSystemSettingEnabled" -Value 0
 Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\PasswordLess\Device" -Name "DevicePasswordLessBuildVersion" -Value 0
+```
 
 *Manual Action for Autologin:*
 1. Press `Win + R`, type `netplwiz`.
@@ -137,10 +139,12 @@ If you used the "Remove Xbox & Gaming Components" tweak in WinUtil, you might st
 
 WinUtil deletes the Xbox app but forgets to delete the registry triggers. To permanently kill the popup, run this in PowerShell (Admin):
 
+```
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\GameDVR" /v "AppCaptureEnabled" /t REG_DWORD /d 0 /f
 reg add "HKCU\System\GameConfigStore" /v "GameDVR_Enabled" /t REG_DWORD /d 0 /f
 New-Item -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\GameDVR" -Force
 Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\GameDVR" -Name "AllowGameDVR" -Value 0
+```
 
 **Why this happened:** Windows 11 treats the "Xbox Game Bar" as a system protocol. When you delete the app but don't delete the registry key,
 
@@ -150,9 +154,11 @@ Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\GameDVR" -Name
 
 Run the following commands in PowerShell (Administrator) to reduce unnecessary disk activity (“thrashing”) on traditional hard drives:
 
+```
 Stop-Service -Name "SysMain"; Set-Service -Name "SysMain" -StartupType Disabled
 Stop-Service -Name "DiagTrack"; Set-Service -Name "DiagTrack" -StartupType Disabled
 Stop-Service -Name "WSearch"; Set-Service -Name "WSearch" -StartupType Disabled
+```
 
 **SysMain: Stops background disk thrashing.
 **DiagTrack: Blocks useless data collection.
@@ -263,8 +269,10 @@ This guide utilizes several amazing open-source projects. Please consider suppor
     * [GitHub](https://github.com/massgravel/Microsoft-Activation-Scripts) | [Official Website / Credits](https://massgrave.dev/)
 * **Chris Titus Tech (WinUtil)**
     *  [Oficial Site](https://christitus.com) | [GitHub](https://github.com/ChrisTitusTech/winutil) | [Patreon](https://www.patreon.com/christitustech)
-* **NINITE
-	* [Oficial Site](https://ninite.com/)
+* **Ninite**
+    * [Official Website](https://ninite.com/)
+* **Evrything**
+	*[Official Site](https://www.voidtools.com/) | [Support](https://www.voidtools.com/donate)
 * **Equicord**
     * [GitHub](https://github.com/Equicord/Equicord) | [Official Website](https://equicord.org/)
 * **Dorion (by SpikeHD)**
@@ -273,8 +281,6 @@ This guide utilizes several amazing open-source projects. Please consider suppor
     * [GitHub](https://github.com/Legcord/Legcord) | [Sponsor on GitHub](https://github.com/sponsors/smartfrigde)
 * **Vencord**
     * [GitHub](https://github.com/Vendicated/Vencord) | [Support Vendicated (Ko-fi)](https://ko-fi.com/vendicated)
- * **Ninite**
-    * [Official Website](https://ninite.com/)
 
 
 **All credit goes to the talented developers linked above.**
