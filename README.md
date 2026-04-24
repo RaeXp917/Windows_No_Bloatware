@@ -178,7 +178,11 @@ dark+theme.css (move it to download folders)
 
 is a profile of other guy that i touched (i just made it a bit darker with red)
 
---darkplus-bg: #0b0b0b;  main/base background
---darkplus-bg2: #131313; secondary background
---darkplus-sec: #940000; (red) outlines, scrollbars, highlights
---darkplus-links: #940000; (red) link/fonts
+:root {
+  --darkplus-bg: #0b0b0b;    /* main/base background */
+  --darkplus-bg2: #131313;   /* secondary background */
+  --darkplus-sec: #940000;   /* (red) outlines, scrollbars, highlights */
+  --darkplus-links: #940000; /* (red) link/fonts */
+
+  // rest..
+}
