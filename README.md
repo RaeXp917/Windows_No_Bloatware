@@ -1,20 +1,18 @@
-**ISO PREP WIN 11**
+### **STEP 0 OS AND RUFUS INSTALLATION (SKIP IF U HAVE THEM) **
 
-    Site: https://massgrave.dev/windows_ltsc_links.html#win11-iot-enterprise-ltsc-2024
+1. ISO Preparation
 
-    Target: en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso
+    Source Site: Massgrave Windows LTSC Links
 
-    Download: en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso
+    Target File: en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso
 
-    Verification: This file contains 3 editions. We only care about Index 2.
+    Verification: This ISO contains 3 editions. Select Index 2 during installation.
 
- **RUFUS PREP**
+2. Rufus Setup
 
-	Site: https://rufus.ie/en/
-	
-    Select the ISO you downloaded and your flash drive
+    Download Tool: Rufus Official Site
 
-    Then click START, check these boxes in the popup:
+    Settings: Select your USB and the ISO. After clicking START, check these boxes in the popup:
 
         Remove requirement for 4GB+ RAM, Secure Boot and TPM 2.0
 
@@ -22,13 +20,15 @@
 
         Disable data collection (Skip privacy questions)
 
-		Disable Bitlocker (if you know what it is and dont need it)
+        Disable BitLocker automatic device encryption
 
-	BIOS: SWITCH PARTITION TO YOUR FLASH DRIVE PARTITION AS PRIORITY 1
+3. OS Installation
 
-    DURING OS INSTALL: When the list appears, SELECT INDEX 2: Windows 11 IoT Enterprise LTSC.
+    BIOS: Set your USB Flash Drive as Priority 1 in Boot Order.
 
-    NO INTERNET: Do not connect to Wi-Fi until you are at the actual desktop.
+    Selection: When the list appears, choose Index 2: Windows 11 IoT Enterprise LTSC.
+
+    No Internet: Do not connect to Wi-Fi/Ethernet during setup. This ensures a clean Local Account creation.
 
 
 ### **STEP 1: WIN ACTIVATE AND PROGGRAMS**
