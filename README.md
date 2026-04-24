@@ -41,9 +41,9 @@
 
 Click the Start Menu, type PowerShell, and Run as Administrator.
 Copy and paste the code below and press Enter:
-
+```
 irm https://get.activated.win | iex
-
+```
 What this can activate:
 
 Windows: All versions (10, 11, Home, Pro, Enterprise, LTSC, and even old ones like 7/8/Server).
@@ -65,9 +65,9 @@ Windows Server: All editions including Server 2025 and RDS CALs.
 **All credit for the tool goes to Chris Titus Tech**
 
 Run in PowerShell (Admin):
-
+```
 irm christitus.com/win | iex
-
+```
 TWEAKS TAB:
 
 Click "Standard" button.
