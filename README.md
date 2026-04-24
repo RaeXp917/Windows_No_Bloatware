@@ -6,9 +6,9 @@
 
     Target File: en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso
 
-    Verification: This ISO contains 3 editions. Select **Index 2 during installation**.
+    Verification: This ISO contains 3 editions. Select **Index 2 during Installation** For details **4. OS Installation**
 
-2. Rufus Setup
+3. Rufus Setup
 
    [Rufus Official Site](https://rufus.ie/en/)
 
@@ -26,11 +26,12 @@
 
         Disable BitLocker automatic device encryption (if you dont need it)
 
-3. OS Installation
+4. OS Installation
 
     BIOS: Set your USB Flash Drive as Priority 1 in Boot Order.
-
-    Selection: When the list appears, choose **Index 2: Windows 11 IoT Enterprise LTSC**.
+   
+   Edition Selection: When the list of versions appears, select:
+   **Windows 11 IoT Enterprise LTSC (This is Index 2)**
 
     No Internet: Do not connect to Wi-Fi/Ethernet during setup. This ensures a clean Local Account creation.
 
