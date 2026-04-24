@@ -1,3 +1,8 @@
+## **DISCLAIMER**
+This repository is for **documentation purposes only**. I do not own any of the tools mentioned in this guide, nor do I take any responsibility for their use, potential system instability, or how you choose to apply these tweaks. Use them at your own risk.
+
+---
+
 ### **STEP 0 OS AND RUFUS INSTALLATION (SKIP IF U HAVE THEM) **
 
 1. ISO Preparation
@@ -253,11 +258,6 @@ APP SETTINGS:
     Hardware Acceleration: ON. Keeps CPU usage low.
 
 and lastly use Discord official themes (for performance)
-
----
-
-## **DISCLAIMER**
-This repository is for **documentation purposes only**. I do not own any of the tools mentioned in this guide, nor do I take any responsibility for their use, potential system instability, or how you choose to apply these tweaks. Use them at your own risk.
 
 ---
 
