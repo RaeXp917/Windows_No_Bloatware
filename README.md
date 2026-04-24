@@ -223,11 +223,11 @@ This guide utilizes several amazing open-source projects. Please consider suppor
 * **Microsoft Activation Scripts (MAS)**
     * [GitHub](https://github.com/massgravel/Microsoft-Activation-Scripts) | [Official Website / Credits](https://massgrave.dev/)
 * **Chris Titus Tech (WinUtil)**
-    * [GitHub](https://github.com/ChrisTitusTech/winutil) | [Patreon](https://www.patreon.com/christitustech)
+    *  [Oficial Site](https://christitus.com) | [GitHub](https://github.com/ChrisTitusTech/winutil) | [Patreon](https://www.patreon.com/christitustech) 
 * **Equicord**
     * [GitHub](https://github.com/Equicord/Equicord) | [Official Website](https://equicord.org/)
 * **Dorion (by SpikeHD)**
-    * [GitHub](https://github.com/SpikeHD/Dorion) | [Support SpikeHD (Ko-fi)](https://ko-fi.com/spikehd)
+    * [GitHub](https://github.com/SpikeHD/Dorion)
 * **Legcord**
     * [GitHub](https://github.com/Legcord/Legcord) | [Sponsor on GitHub](https://github.com/sponsors/smartfrigde)
 * **Vencord**
