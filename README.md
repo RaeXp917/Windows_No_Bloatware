@@ -38,7 +38,7 @@ This repository is for **documentation purposes only**. I do not own any of the 
    Edition Selection: When the list of versions appears, select:
    **Windows 11 IoT Enterprise LTSC (This is Index 2)**
 
-    No Internet: Do not connect to Wi-Fi/Ethernet during setup. This ensures a clean Local Account creation.
+    No Internet: Do not connect to Wi-Fi/Ethernet during setup. Until you boot to your os without the flash drive.
 
 ---
 
