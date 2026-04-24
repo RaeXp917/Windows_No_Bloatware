@@ -146,7 +146,7 @@ New-Item -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\GameDVR" -Force
 Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\GameDVR" -Name "AllowGameDVR" -Value 0
 ```
 
-**Why this happened:** Windows 11 treats the "Xbox Game Bar" as a system protocol. When you delete the app but don't delete the registry key,
+**Why this happened:** Windows 11 treats the "Xbox Game Bar" as a system protocol.
 
 ---
 
