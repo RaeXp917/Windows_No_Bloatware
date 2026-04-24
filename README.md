@@ -107,7 +107,7 @@ https://www.voidtools.com/downloads/
 
 **OPTIONAL LIGHTWEIGHT DISCORD CLIENTS**
 
-## ============ Dorion (The "Ultra-Light" Pick) ===================
+## **Dorion (The "Ultra-Light" Pick)**
 
 Built with Rust/Tauri. Extremely small and fast.
 
@@ -123,7 +123,7 @@ Plugins supported Vencord/Equicord
 
 Vencord Built-in
 
-## ============ Legcord (lighter Discord client with added privacy) =================
+## Legcord **(lighter Discord client with added privacy)**
 
 A solid all-around alternative focused on better performance and built-in enhancements.
 
@@ -137,7 +137,7 @@ Default Shortcuts: Currently uses Ctrl + Shift + D for Deafen. (on focused windo
 
 Plugins Vencord Built-in
 
-## ================= (OPTIONAL) DISCORD RECC PLUGINS FOR BEING LIGHTWEIGHT=========================
+##  **(OPTIONAL) DISCORD RECC PLUGINS FOR BEING LIGHTWEIGHT**
 
 PLUGINS TO ENABLE:
 
@@ -159,7 +159,7 @@ APP SETTINGS:
 
 and lastly use Discord themes not extras
 
-## ========== (OPTIONAL BUT RECC) ==========
+##  **(OPTIONAL BUT RECC)**
 
 Once your Discord plugins are satisfied
 
