@@ -155,8 +155,6 @@ PLUGINS TO ENABLE:
 APP SETTINGS:
     Hardware Acceleration: ON. Keeps CPU usage low.
 
-AlwaysAnimate: (KILL THIS) if its open ?
-
 and lastly use Discord themes not extras
 
 ========== (OPTIONAL BUT RECC) ==========
