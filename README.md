@@ -44,8 +44,7 @@ This repository is for **documentation purposes only**. I do not own any of the 
 
 ### **STEP 1: WIN ACTIVATE AND PROGGRAMS**
 
-Click the Start Menu, type PowerShell, and Run as Administrator.
-Copy and paste the code below and press Enter:
+Open PowerShell as Admin, and Run the command bellow.
 ```
 irm https://get.activated.win | iex
 ```
@@ -72,7 +71,7 @@ Windows Server: All editions including Server 2025 and RDS CALs.
 
 **All credit for the tool goes to Chris Titus Tech**
 
-Run in PowerShell (Admin):
+Open PowerShell as Admin, and Run the command bellow.
 ```
 irm christitus.com/win | iex
 ```
@@ -107,7 +106,7 @@ UPDATES TAB:
 
 ## **STEP 3: REGISTRY - KILL ONLINE ACCOUNT NAGS & PASSWORD**
 
-*Run in PowerShell (Admin) to automate the Registry keys:*
+Open PowerShell as Admin, and Run the command bellow.
 
 ```
 New-Item -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\CloudContent" -Force
@@ -133,7 +132,7 @@ CHECK the box: Show window contents while dragging.
 
 ## **OPTIONAL: INSTALL MICROSOFT STORE**
 
-Run this in PowerShell (Admin):
+Open PowerShell as Admin, and Run the command bellow.
 ```
 wsreset -i
 ```
@@ -145,7 +144,7 @@ Wait about 2 to 5 minutes, and the Microsoft Store icon will suddenly appear in 
 
 If you used the "Remove Xbox & Gaming Components" tweak in WinUtil, you might start getting an annoying popup saying: *"You'll need a new app to open this ms-gamingoverlay link"* every time you launch a game. 
 
-WinUtil deletes the Xbox app but forgets to delete the registry triggers. To permanently kill the popup, run this in PowerShell (Admin):
+To permanently kill the popup, Open PowerShell as Admin, and Run the command bellow.
 
 ```
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\GameDVR" /v "AppCaptureEnabled" /t REG_DWORD /d 0 /f
@@ -154,14 +153,15 @@ New-Item -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\GameDVR" -Force
 Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\GameDVR" -Name "AllowGameDVR" -Value 0
 ```
 
-**Why this happened:** Windows 11 treats the "Xbox Game Bar" as a system protocol.
+Windows 11 treats the "Xbox Game Bar" as a system protocol.
 
 ---
 
 ## **HDD OPTIMIZATIONS (CRITICAL FOR HDDs WINDOWS INSTALL — SKIP IF YOU USE AN SSD)**
 
-Run the following commands in PowerShell (Administrator) to reduce unnecessary disk activity (“thrashing”) on traditional hard drives:
+To reduce unnecessary disk activity (“thrashing”) on traditional hard drives
 
+Open PowerShell as Admin, and Run the command bellow.
 ```
 Stop-Service -Name "SysMain"; Set-Service -Name "SysMain" -StartupType Disabled
 Stop-Service -Name "DiagTrack"; Set-Service -Name "DiagTrack" -StartupType Disabled
@@ -181,15 +181,17 @@ Just use **Everything**. It is plain better, faster, and more precise than the b
 
 * [Official Site Everything](https://www.voidtools.com/)
 
--cons a simple exe instead of build in searchbar
+-Cons a simple exe instead of build in searchbar
 
 ---
 
 ### ** (OPTIONAL) BULK PROGRAM INSTALLER NINITE**
 
-If there are any essential programs you need that weren't included in the WinUtil tool, you can easily install them all at once using Ninite.
+If there are any essential programs you need that weren’t included (or you didn’t select them in the WinUtil tool), an alternative solution is Ninite.
 
 * [Ninite's Official Website](https://ninite.com/)
+
+-Cons: a simple exe that bundles all the programs you selected into one package.
 
 ---
 
@@ -204,8 +206,8 @@ Built with Rust/Tauri. Extremely small and fast.
 
 on release v6.12.2 (atm screensharing is the heavy part idk if its gonna change in the feature)
 
-Pros: Tiny install size (~10MB). Uses your system's webview to save RAM.
-Cons: Can be "heavy" on CPU/GPU specifically during high-quality streaming (Screen Share).
+-Pros: Tiny install size (~10MB). Uses your system's webview to save RAM.
+-Cons: Can be "heavy" on CPU/GPU specifically during high-quality streaming (Screen Share).
 
 Plugins supported Vencord/Equicord	
 
@@ -224,13 +226,12 @@ Vencord Built-in
 * [Visit Legcord's Website](https://legcord.app/)
 * [View Legcord on GitHub](https://github.com/Legcord/Legcord)
   
-
 A solid all-around alternative focused on better performance and built-in enhancements.
 
-Pros: Uses ~200MB less RAM than standard Discord. Vencord comes pre-installed by default.
+Default Shortcuts: Currently uses Ctrl + Shift + D for Deafen. (on focused window) on v1.2.4
 
-Cons: (Current Known Issues on v1.2.4): not global keybinds working + no custom keybinds atm
-Default Shortcuts: Currently uses Ctrl + Shift + D for Deafen. (on focused window)
+-Pros: Uses ~200MB less RAM than standard Discord. Vencord comes pre-installed by default.
+-Cons: (Current Known Issues on v1.2.4): not global keybinds working + no custom keybinds atm
 
 Plugins Vencord Built-in
 
@@ -257,10 +258,12 @@ PLUGINS TO ENABLE:
     NoDevtoolsWarning: Removes useless screen clutter.
     NoBlockedMessages: Fewer items to render.
 
-APP SETTINGS:
-    Hardware Acceleration: ON. Keeps CPU usage low.
+Hardware Acceleration:
 
-and lastly use Discord official themes (for performance)
+ON — lowers CPU usage
+OFF — higher CPU usage, but can fix GPU issues
+
+And lastly, use official themes in Discord for better performance
 
 ---
 
