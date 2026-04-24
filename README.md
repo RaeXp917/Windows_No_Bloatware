@@ -6,7 +6,7 @@
 
     Target File: en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso
 
-    Verification: This ISO contains 3 editions. Select **Index 2 during Installation** For details **4. OS Installation**
+    Verification: This ISO contains 3 editions. Select **Index 2 during Installation** For details go **4. OS Installation**
 
 3. Rufus Setup
 
